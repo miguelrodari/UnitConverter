@@ -1,0 +1,28 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!--<string name="app_name">Conversor de unidades</string>-->
+    <!--<string name="action_settings">Ajustes</string>-->
+
+    <!--&lt;!&ndash;Categories&ndash;&gt;-->
+    <!--<string name="category_prompt">Elige una categoría</string>-->
+    <!--<string name="category_temperature">Temperatura</string>-->
+    <!--<string name="category_length">Longitud</string>-->
+    <!--<string name="category_area_">Área</string>-->
+
+    <!--<string name="unit_prompt">Elige una categoría</string>-->
+    <!--&lt;!&ndash;Units of Length&ndash;&gt;-->
+    <!--<string name="unit_length_meter">Metro</string>-->
+    <!--<string name="unit_length_yard">Yarda</string>-->
+    <!--<string name="unit_length_millimeter">Milimetro</string>-->
+    <!--&lt;!&ndash;Units of Temperature&ndash;&gt;-->
+    <!--<string name="unit_temperature_celsius">Celsius</string>-->
+    <!--<string name="unit_temperature_fahrenheit">Fahrenheit</string>-->
+    <!--<string name="unit_temperature_kelvin">Kelvin</string>-->
+    <!--&lt;!&ndash;Units of Area&ndash;&gt;-->
+    <!--<string name="unit_area_acre">Acre</string>-->
+    <!--<string name="unit_area_hectare">Hectarea</string>-->
+    <!--<string name="unit_area_squaremeter">Metro Cuadrado</string>-->
+
+    <!--<string name="unit_area_squaremile">Milla Cuadrada</string>-->
+    <!--<string name="unit_length_foot">Pie</string>-->
+    <!--<string name="unit_length_inch">Pulgada</string>-->
+</resources>

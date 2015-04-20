@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<unitsOfMeasure>
+    <unit>
+        <name>Meter</name>
+        <category>Length</category>
+        <standardFormat>m</standardFormat>
+    </unit>
+    <unit>
+        <name>Foot</name>
+        <category>Length</category>
+        <standardFormat>ft</standardFormat>
+    </unit>
+    <unit>
+        <name>Inch</name>
+        <category>Length</category>
+        <standardFormat>in</standardFormat>
+    </unit>
+    <unit>
+        <name>Yard</name>
+        <category>Length</category>
+        <standardFormat>yd</standardFormat>
+    </unit>
+    <unit>
+        <name>Celsius</name>
+        <category>Temperature</category>
+        <standardFormat>℃</standardFormat>
+    </unit>
+    <unit>
+        <name>Fahrenheit</name>
+        <category>Temperature</category>
+        <standardFormat>°F</standardFormat>
+    </unit>
+    <unit>
+        <name>Kelvin</name>
+        <category>Temperature</category>
+        <standardFormat>K</standardFormat>
+    </unit>
+    <unit>
+        <name>Hectare</name>
+        <category>Area</category>
+        <standardFormat>ha</standardFormat>
+    </unit>
+    <unit>
+        <name>Square Meter</name>
+        <category>Area</category>
+        <standardFormat>m²</standardFormat>
+    </unit>
+    <unit>
+        <name>Ampere</name>
+        <category>Electric Current</category>
+        <standardFormat>A</standardFormat>
+    </unit>
+    <unit>
+        <name>Gilbert</name>
+        <category>Electric Current</category>
+        <standardFormat>Gi</standardFormat>
+    </unit>
+    <unit>
+        <name>Bit</name>
+        <category>Data Amount</category>
+        <standardFormat>bit</standardFormat>
+    </unit>
+    <unit>
+        <name>Byte</name>
+        <category>Data Amount</category>
+        <standardFormat>byte</standardFormat>
+    </unit>
+    <unit>
+        <name>Cubic Meter</name>
+        <category>Volume</category>
+        <standardFormat>m³</standardFormat>
+    </unit>
+    <unit>
+        <name>Cubic Inch</name>
+        <category>Volume</category>
+        <standardFormat>in³</standardFormat>
+    </unit>
+    <unit>
+        <name>Gallon UK</name>
+        <category>Volume</category>
+        <standardFormat>gallon_uk</standardFormat>
+    </unit>
+    <unit>
+        <name>Ounce Liquid UK</name>
+        <category>Volume</category>
+        <standardFormat>oz_uk</standardFormat>
+    </unit>
+    <unit>
+        <name>Gallon Liquid US</name>
+        <category>Volume</category>
+        <standardFormat>gal</standardFormat>
+    </unit>
+    <unit>
+        <name>Ounce Liquid US</name>
+        <category>Volume</category>
+        <standardFormat>oz</standardFormat>
+    </unit>
+    <unit>
+        <name>Gallon Dry US</name>
+        <category>Volume</category>
+        <standardFormat>gallon_dry_us</standardFormat>
+    </unit>
+    <unit>
+        <name>Gram</name>
+        <category>Mass</category>
+        <standardFormat>g</standardFormat>
+    </unit>
+    <unit>
+        <name>Kilogram</name>
+        <category>Mass</category>
+        <standardFormat>kg</standardFormat>
+    </unit>
+    <unit>
+        <name>Pound</name>
+        <category>Mass</category>
+        <standardFormat>lb</standardFormat>
+    </unit>
+    <unit>
+        <name>Metric Ton</name>
+        <category>Mass</category>
+        <standardFormat>t</standardFormat>
+    </unit>
+    <unit>
+        <name>Ton UK</name>
+        <category>Mass</category>
+        <standardFormat>ton_uk</standardFormat>
+    </unit>
+    <unit>
+        <name>Ton US</name>
+        <category>Mass</category>
+        <standardFormat>ton_us</standardFormat>
+    </unit>
+    <unit>
+        <name>Electron Mass</name>
+        <category>Mass</category>
+        <standardFormat>me</standardFormat>
+    </unit>
+    <unit>
+        <name>Atomic Mass</name>
+        <category>Mass</category>
+        <standardFormat>u</standardFormat>
+    </unit>
+    <!--<unit>-->
+        <!--<name>Ounce</name>-->
+        <!--<category>Mass</category>-->
+        <!--<standardFormat>oz</standardFormat>-->
+    <!--</unit>-->
+</unitsOfMeasure>

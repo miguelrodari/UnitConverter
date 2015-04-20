@@ -1,0 +1,103 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity$PlaceholderFragment"
+    android:gravity="center_horizontal">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.5"
+        android:background="@color/dark_grey">
+        <Spinner
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerCategory"
+            android:entries="@array/category_label_array"
+            android:prompt="@string/category_prompt"
+            android:layout_gravity="center"
+            android:padding="8dp"
+            android:gravity="center_horizontal" />
+    </FrameLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@color/dark_grey"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:orientation="horizontal"
+        android:paddingBottom="16dp"
+        android:gravity="end">
+        <EditText
+            android:layout_width="wrap_content"
+            android:minWidth="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:id="@+id/inputText1"
+            android:layout_gravity="start|bottom"
+            android:gravity="end"
+            android:imeOptions="actionDone"
+            android:textSize="30sp"
+            />
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|bottom"
+            android:gravity="end"
+            android:background="@color/dark_grey">
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="end|bottom"
+                android:id="@+id/spinnerUnit1"
+                android:prompt="@string/unit_prompt"
+                android:gravity="center_horizontal" />
+        </FrameLayout>
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="4dp"
+        android:background="@color/dark_grey">
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:paddingTop="8dp"
+        android:orientation="horizontal"
+        android:gravity="start">
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="end"
+            android:layout_marginTop="27dp"
+            android:background="@color/dark_grey">
+            <Spinner
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="end|center_horizontal"
+                android:id="@+id/spinnerUnit2"
+                android:prompt="@string/unit_prompt"/>
+        </FrameLayout>
+        <EditText
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:inputType="numberDecimal"
+            android:ems="10"
+            android:id="@+id/inputText2"
+            android:layout_gravity="top"
+            android:gravity="start"
+            android:imeOptions="actionDone"
+            android:textSize="30sp"/>
+    </LinearLayout>
+
+</LinearLayout>

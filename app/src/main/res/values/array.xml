@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="category_label_array">
+        <item>@string/category_area</item>
+        <item>@string/category_length</item>
+        <item>@string/category_temperature</item>
+        <item>@string/category_mass</item>
+        <item>@string/category_volume</item>
+        <item>@string/category_dataAmount</item>
+        <item>@string/category_electricCurrent</item>
+    </string-array>
+
+    <string-array name="area_label_array">
+        <!--<item id="acre">@string/unit_area_acre</item>-->
+        <item id="hectare">@string/unit_area_hectare</item>
+        <item id="sqaremeter">@string/unit_area_squaremeter</item>
+        <!--<item id="sqaremile">@string/unit_area_squaremile</item>-->
+    </string-array>
+
+    <string-array name="temperature_label_array">
+        <item>@string/unit_temperature_celsius</item>
+        <item>@string/unit_temperature_fahrenheit</item>
+        <item>@string/unit_temperature_kelvin</item>
+    </string-array>
+
+    <string-array name="length_label_array">
+        <item>@string/unit_length_meter</item>
+        <item>@string/unit_length_foot</item>
+        <item>@string/unit_length_inch</item>
+        <item>@string/unit_length_yard</item>
+        <item>@string/unit_length_millimeter</item>
+    </string-array>
+</resources>

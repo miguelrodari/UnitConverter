@@ -1,0 +1,31 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Unit Converter</string>
+    <string name="action_settings">Settings</string>
+
+    <!--Categories-->
+    <string name="category_prompt">Choose a category</string>
+    <string name="category_temperature">Temperature</string>
+    <string name="category_length">Length</string>
+    <string name="category_area">Area</string>
+    <string name="category_mass">Mass</string>
+    <string name="category_volume">Volume</string>
+    <string name="category_dataAmount">Data Amount</string>
+    <string name="category_electricCurrent">Electric Current</string>
+
+    <string name="unit_prompt">Choose a category</string>
+    <!--Units of Length-->
+    <string name="unit_length_meter">Meter</string>
+    <string name="unit_length_yard">Yard</string>
+    <string name="unit_length_foot">Foot</string>
+    <string name="unit_length_inch">Inch</string>
+    <string name="unit_length_millimeter">Millimeter</string>
+    <!--Units of Temperature-->
+    <string name="unit_temperature_celsius">Celsius</string>
+    <string name="unit_temperature_fahrenheit">Fahrenheit</string>
+    <string name="unit_temperature_kelvin">Kelvin</string>
+    <!--Units of Area-->
+    <string name="unit_area_acre">Acre</string>
+    <string name="unit_area_hectare">Hectare</string>
+    <string name="unit_area_squaremeter">Square Meter</string>
+    <string name="unit_area_squaremile">Square Mile</string>
+</resources>
