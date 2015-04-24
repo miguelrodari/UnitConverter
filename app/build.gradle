@@ -13,7 +13,7 @@ android {
     }
     buildTypes {
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }
     }
@@ -22,7 +22,7 @@ android {
 dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:22.0.0'
-    compile files('libs/unit-api-0.6.1.jar')
+    compile 'com.google.code.findbugs:jsr305:3.0.0'
+    compile group: 'com.google.guava', name: 'guava', version: '18.0'
     compile files('libs/jscience.jar')
-    compile files('libs/guava-18.0.jar')
 }
