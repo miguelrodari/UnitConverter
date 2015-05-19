@@ -1,4 +1,4 @@
-package com.android.miguelrodari.unitconverter.Data;
+package com.android.miguelrodari.unitconverter.models;
 
 /**
  * Created by Miguel on 4/13/2015.
@@ -13,12 +13,6 @@ public class UnitOfMeasure {
         Name = null;
         Category = null;
         StandardFormat = null;
-    }
-
-    public UnitOfMeasure(String name, String category, String standardFormat) {
-        Name = name;
-        Category = category;
-        StandardFormat = standardFormat;
     }
 
     public String getName() {

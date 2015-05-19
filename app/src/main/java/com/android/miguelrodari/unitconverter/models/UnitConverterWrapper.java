@@ -1,4 +1,4 @@
-package com.android.miguelrodari.unitconverter;
+package com.android.miguelrodari.unitconverter.models;
 
 import java.text.DecimalFormat;
 import java.text.NumberFormat;
@@ -9,8 +9,8 @@ import javax.measure.unit.Unit;
 /**
  * Created by Miguel on 4/8/2015.
  */
-public class Converter {
-    private Converter() {
+public class UnitConverterWrapper {
+    private UnitConverterWrapper() {
     }
 
     public static String getResult(String fromUnit, String toUnit, double value){
